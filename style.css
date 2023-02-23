@@ -1,0 +1,51 @@
+table {
+    border-collapse: collapse;
+    border: 1px solid rgb(10, 1, 4);
+  }
+  th, td {
+    border: 1px solid rgb(10,1,4);
+    padding: 8px;
+  }
+  div {
+      margin-bottom: 40px;
+      background-color: crimson;
+  }
+  body{
+      font-family:'Times New Roman', Times, serif ;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    
+  }
+  .container div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .container div input{
+    height: 25px;
+    width: 180px;
+    background-color: rgb(107, 20, 39);
+  }
+
+  .container  button{
+    height: 25px;
+    width: 180px;
+    background-color: rgb(49, 233, 49);
+  }
+  h1{
+    color:rgb(102, 6, 46);
+    text-align:centre;
+  }
+  label{
+    color:black;
+    font-size:24;
+  }
+  h1{
+    text-align: center;
+  }
